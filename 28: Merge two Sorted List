@@ -1,0 +1,11 @@
+def merge_two_sorted_lists(list1, list2):
+    # Your code goes here
+   # list1.extend(list2)
+    #return sorted(list1)
+    i,j = 0, 0
+    result =[]
+    while i<len(list1) and j<len(list2):
+        if list1[i]< list2[j]:
+            result.append(list[i])
+    pass
+
