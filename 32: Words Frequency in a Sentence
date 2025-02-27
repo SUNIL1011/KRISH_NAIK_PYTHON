@@ -1,0 +1,11 @@
+def count_word_frequency(sentence):
+    # Your code goes here
+    sentence_split = sentence.split()
+    dicts = {}
+    for i in sentence_split:
+        if i in dicts:
+            dicts[i] += 1
+        else:
+            dicts[i] = 1
+    return dicts
+    pass
